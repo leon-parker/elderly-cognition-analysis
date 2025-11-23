@@ -1,0 +1,1 @@
+The dataset is extremely imbalanced (4 impaired cases out of 1200), so the model predicts very low probability for impairment in all test samples. The predictions file clearly shows the model assigning all samples to class 0, including the single impaired sample in the test set. This highlights a limitation of the dataset rather than the modelling.
